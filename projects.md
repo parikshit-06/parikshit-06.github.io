@@ -114,6 +114,10 @@ title: Projects
 }
 </style>
 
+<h1 style="text-align: center; font-size: 2.5rem; font-weight: 700; margin-top: 3rem; font-family: 'Inter', sans-serif;">
+  Projects
+</h1>
+
 <section class="projects-grid">
   {% for project in site.data.projects %}
     <div class="project-card">
