@@ -5,35 +5,44 @@ permalink: /about/
 ---
 
 <style>
+body {
+  font-family: system-ui, sans-serif;
+}
+
 .about-section {
-  color: #e2e2e2;
-  line-height: 1.8;
+  color: #e0e0e0;
   font-size: 1.05rem;
+  line-height: 1.75;
   margin-bottom: 2rem;
 }
-.about-section strong {
-  color: #ffffff;
-}
+
 .about-divider {
   border-top: 1px solid #555;
   margin: 2.5rem 0;
 }
+
 .section-title {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #ff69b4;
-  margin-bottom: 0.8rem;
   display: flex;
   align-items: center;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ff69b4;
+  margin-bottom: 1rem;
 }
 .section-title span {
   font-size: 1.4rem;
   margin-right: 0.6rem;
 }
+
 ul.about-list {
   list-style: none;
   padding-left: 0;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
+  font-size: 1.05rem;
+  color: #d0d0d0;
+}
+ul.about-list li {
+  margin-bottom: 0.6rem;
 }
 ul.about-list li::before {
   content: "•";
@@ -41,10 +50,6 @@ ul.about-list li::before {
   font-size: 1.2rem;
   display: inline-block;
   width: 1.2em;
-}
-ul.about-list li {
-  margin-bottom: 0.6rem;
-  color: #d0d0d0;
 }
 ul.about-list li strong {
   color: #ffffff;
