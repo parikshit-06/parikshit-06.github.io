@@ -68,7 +68,7 @@ layout: page
 
 ### 📫 Let’s Connect
 
-- 📧 Email: parik.sonwane06@gmail.com  
+- 📧 Email: [parik.sonwane06@gmail.com](parik.sonwane06@gmail.com)  
 - 💼 LinkedIn: [psonwane](https://linkedin.com/in/psonwane)  
 - 💻 GitHub: [parikshit-06](https://github.com/parikshit-06)
 
