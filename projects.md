@@ -7,17 +7,19 @@ title: Projects
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  gap: 1.75rem;
   margin-top: 2rem;
+  padding: 0 1.5rem;
 }
 
 .project-card {
   background-color: #1a1a1a;
   border: 1px solid #333;
   border-radius: 12px;
-  padding: 1.5rem;
+  padding: 1.75rem;
   box-shadow: 0 4px 14px rgba(255, 255, 255, 0.05);
   transition: all 0.25s ease-in-out;
+  font-family: 'Inter', sans-serif;
 }
 
 .project-card:hover {
@@ -26,8 +28,8 @@ title: Projects
 }
 
 .project-card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.4rem;
+  margin: 0 0 0.75rem;
+  font-size: 1.6rem;
   color: #ffffff;
 }
 
@@ -43,8 +45,8 @@ title: Projects
 
 .project-card p {
   color: #d0d0d0;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.75;
 }
 
 .project-tags {
@@ -55,23 +57,23 @@ title: Projects
   display: inline-block;
   background-color: #2f2f2f;
   color: #c0c0c0;
-  padding: 0.3rem 0.7rem;
-  font-size: 0.75rem;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
   border-radius: 999px;
   margin-right: 0.4rem;
   margin-bottom: 0.3rem;
 }
 
 .project-buttons {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .project-buttons a {
   display: inline-block;
   background-color: #3a3a3a;
   color: #fff;
-  padding: 0.5rem 1rem;
-  font-size: 0.85rem;
+  padding: 0.6rem 1.1rem;
+  font-size: 1rem;
   border-radius: 8px;
   text-decoration: none;
   transition: background 0.2s ease;
