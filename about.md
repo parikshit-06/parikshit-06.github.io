@@ -2,48 +2,76 @@
 title: About
 layout: page
 ---
+
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
+<p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
 
-Hi, I’m **Parikshit Sonwane**, a final-year undergraduate at IIT Madras majoring in Aerospace Engineering. My work lies at the intersection of **robotics, AI/ML, embedded systems, and control**, with a deep focus on solving real-world problems using intelligent autonomous systems.
-
----
-
-### 🔧 What I Do
-
-- **Drone & UAV Systems:** From design to flight, I've built fixed-wing, amphibious, and multi-modal UAVs for applications like disaster relief and autonomous navigation.
-- **Machine Learning & Computer Vision:** Trained models for gesture recognition, drone detection, and domain-adaptive NLP using frameworks like TensorFlow, Keras, Hugging Face.
-- **Control & Planning:** Implemented 3D A* path planning on voxelized LiDAR data, PID-based flight control in Simulink, and fault-tolerant motor failure recovery on PX4.
-- **Embedded & Simulation:** Deployed systems on Raspberry Pi, Jetson Nano; built full stack prototypes in ROS/ROS2, Gazebo, and MATLAB.
+<p>I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.</p>
 
 ---
 
-### 💼 Projects
+### 🧠 What I'm Interested In
 
-Some highlights:
-<ul>
-	<li><a href="https://github.com/">AirSight: Real-time drone detection using image + audio fusion (MobileNetV2 + MFCC)</a></li>
-	<li><a href="https://github.com/">GestureNav: Hand gesture-based drone navigation using CNNs and ROS2</a></li>
-	<li><a href="https://github.com/">GPT-2 Skeleton: Domain-adaptive LoRA model with scalable multi-domain NLP training</a></li>
+- Robotics (UAVs, UUVs, multi-modal systems)  
+- Real-time perception (CV, audio, sensor fusion)  
+- Path planning, control systems, and RL  
+- ML inference on edge hardware (Jetson, Pi)  
+- Sim-to-real transfer and autonomous navigation
+
+---
+
+### 💼 Roles I've Taken
+
+- <strong>Head, Aero Club – CFI, IIT Madras</strong>  
+  I lead student UAV/Robo projects, mentor teams, and organize workshops and competitions.
+
+- <strong>Project Lead – Neptune (Amphibious UAV)</strong>  
+  I led the design and testing of a drone capable of both aerial and underwater operations using custom waterproof propulsion and CFD-optimized geometry.
+
+- <strong>Team Lead – Inter-IIT Tech Meet</strong>  
+  I built a fault-tolerant PX4-based UAV with onboard motor failure detection and emergency recovery logic, and demonstrated full HIL simulation.
+
+---
+
+### 🧪 Currently Building
+
+- **GestureNav:** A real-time drone navigation system controlled via hand gestures using ROS 2, MediaPipe, and PX4.  
+- **Domain Adaptive Skeleton GPT-2:** A modular NLP pipeline using LoRA adapters for task-specific fine-tuning across multiple domains.  
+- **RL + LiDAR Obstacle Avoidance:** Reinforcement learning for UAV navigation using voxelized 3D LiDAR environments.
+
+---
+
+### 🛠 My Stack
+
+<ul class="skill-list">
+	<li><strong>Languages:</strong> Python, C/C++, SQL</li>
+	<li><strong>Frameworks:</strong> ROS/ROS2, PX4, OpenCV, Simulink, TensorFlow</li>
+	<li><strong>Libraries:</strong> Hugging Face, MediaPipe, MFCC, scikit-learn</li>
+	<li><strong>Tools:</strong> Git, Jupyter, Gazebo, MATLAB, Linux, GCP</li>
+	<li><strong>Hardware:</strong> Raspberry Pi, Jetson Nano, Arduino, Pixhawk</li>
+	<li><strong>CAD & Simulation:</strong> Fusion360, CFD, UAV design and testing</li>
 </ul>
 
 ---
 
-### 🔍 What I'm Looking For
+### 🧩 Projects I'm Proud Of
 
-I'm currently open to:
-- Robotics/AI/ML internships or research roles
-- Collaborations on real-world robotics or ML applications
-- Industry projects in drone tech, autonomous navigation, or embedded ML
+<ul>
+	<li><a href="https://github.com/parikshit-06/airsight">AirSight – Multi-Modal Drone Detection</a></li>
+	<li><a href="https://github.com/parikshit-06/gesturenav">GestureNav – Vision-Based Drone Control</a></li>
+	<li><a href="https://github.com/parikshit-06/astar-gridmap-co">3D A* Path Planning with LiDAR</a></li>
+	<li><a href="https://github.com/parikshit-06/domain-adaptive-skeleton">Domain Adaptive Skeleton GPT-2</a></li>
+	<li><a href="https://github.com/parikshit-06/amphibious-uav">Neptune – Amphibious Drone</a></li>
+	<li><a href="https://github.com/parikshit-06/motor-failure-uav">Motor Failure Recovery – Inter-IIT Tech Meet</a></li>
+</ul>
 
 ---
 
 ### 📫 Let’s Connect
 
-- GitHub: [@parikshit-06](https://github.com/parikshit-06)
-- LinkedIn: [Parikshit Sonwane](https://linkedin.com/in/psonwane)
-- Email: parik.sonwane06@gmail.com
+- 📧 Email: parik.sonwane06@gmail.com  
+- 💼 LinkedIn: [psonwane](https://linkedin.com/in/psonwane)  
+- 💻 GitHub: [parikshit-06](https://github.com/parikshit-06)
 
----
-
-Whether it’s building field-deployable drones or optimizing neural networks for edge inference, I enjoy working where **hardware meets intelligence** and where theory is tested under constraint.
+<p>If you're working on robotics, edge AI, or just like building systems that move and think — feel free to reach out.</p>
