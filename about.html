@@ -5,14 +5,19 @@ permalink: /about/
 ---
 
 <style>
-body {
-  background-color: #121212;
+html, body {
+  background-color: #121212 !important;
   font-family: 'Inter', sans-serif;
   font-size: 1.8rem;
   line-height: 2.8rem;
   color: #f0f0f0;
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+#main, .wrapper, .content, .page-content {
+  background-color: transparent !important;
 }
 
 .intro-box {
@@ -84,7 +89,7 @@ a:hover {
 <div class="intro-box">
   <img src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" alt="Profile Image" class="about-pic" />
 
-  <p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
+  <p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems - building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
 
   <p>I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.</p>
 </div>
