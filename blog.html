@@ -3,20 +3,20 @@ layout: page
 title: Blog
 ---
 
-<div class="container mx-auto px-4 py-8">
-  <h1 class="text-4xl font-bold mb-8 text-center">Latest Posts</h1>
+<div class="container mx-auto px-4 py-6">
+  <h1 class="text-3xl font-semibold mb-6 text-center text-gray-800">Blog</h1>
 
   {% if site.posts.size == 0 %}
-    <p class="text-center text-gray-500 text-lg">Nothing published yet!</p>
+    <p class="text-center text-gray-500 text-sm">Nothing published yet!</p>
   {% else %}
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {% for post in site.posts %}
         {% if post.category == 'blog' and post.hidden != true %}
-          <a href="{{ post.url }}" class="block bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 p-6">
-            <h2 class="text-xl font-semibold text-gray-900 mb-2">{{ post.title }}</h2>
-            <p class="text-sm text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }}</p>
-            <p class="text-gray-700 text-base">{{ post.description | truncate: 100 }}</p>
-            <span class="inline-block mt-4 text-blue-600 font-medium hover:underline">Read more →</span>
+          <a href="{{ post.url }}" class="block bg-gray-50 border border-gray-200 rounded-xl p-4 hover:shadow-md transition duration-200">
+            <h2 class="text-lg font-medium text-gray-800 mb-1">{{ post.title }}</h2>
+            <p class="text-xs text-gray-500 mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p class="text-sm text-gray-600">{{ post.description | truncate: 90 }}</p>
+            <span class="text-sm text-blue-600 mt-3 inline-block hover:underline">Read more →</span>
           </a>
         {% endif %}
       {% endfor %}
