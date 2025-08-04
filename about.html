@@ -7,14 +7,14 @@ permalink: /about/
 <style>
 body {
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.2;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: #f0f0f0;
 }
 
-.container {
+.intro-box {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 4rem auto;
   padding: 2rem 1.5rem;
   background-color: #1e1e1e;
   border-radius: 12px;
@@ -22,10 +22,18 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
+img.about-pic {
+  width: 230px;
+  border-radius: 12px;
+  margin: 0 auto 2rem auto;
+  border: 2px solid #666;
+  display: block;
+}
+
 .section-title {
   display: flex;
   align-items: center;
-  font-size: 1.95rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #9f79ff;
   margin-top: 3rem;
@@ -35,16 +43,11 @@ body {
   margin-right: 0.6rem;
 }
 
-.about-divider {
-  border-top: 1px solid #555;
-  margin: 3rem 0;
-}
-
 ul.about-list {
   list-style: none;
   padding-left: 0;
-  font-size: 1.4rem;
-  color: #dcdcdc;
+  font-size: 1.6rem;
+  color: #e2e2e2;
 }
 ul.about-list li {
   margin-bottom: 1rem;
@@ -68,24 +71,22 @@ a:hover {
   text-decoration: underline;
 }
 
-img.about-pic {
-  width: 230px;
-  border-radius: 12px;
-  margin: 0 auto 2rem auto;
-  border: 2px solid #666;
-  display: block;
+.about-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 </style>
 
-<div class="container">
+<div class="intro-box">
   <img src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" alt="Profile Image" class="about-pic" />
 
   <p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
 
   <p>I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.</p>
+</div>
 
-  <div class="about-divider"></div>
-
+<div class="about-section">
   <h2 class="section-title"><span>🧠</span>What I’m Interested In</h2>
   <ul class="about-list">
     <li>Robotics (UAVs, UUVs, multi-modal systems)</li>
@@ -93,16 +94,12 @@ img.about-pic {
     <li>Path planning, control systems, and RL</li>
   </ul>
 
-  <div class="about-divider"></div>
-
   <h2 class="section-title"><span>🚀</span>Currently Working On</h2>
   <ul class="about-list">
     <li><strong>GestureNav</strong>: Drone navigation via real-time hand gestures using ROS2, MediaPipe, and PX4.</li>
     <li><strong>Domain Adaptive GPT-2</strong>: Lightweight NLP model using LoRA adapters across legal, sports, and medical domains.</li>
     <li><strong>RL + LiDAR Obstacle Avoidance</strong>: Reinforcement learning with 3D voxelized LiDAR environments.</li>
   </ul>
-
-  <div class="about-divider"></div>
 
   <h2 class="section-title"><span>🛠️</span>My Stack</h2>
   <ul class="about-list">
@@ -112,8 +109,6 @@ img.about-pic {
     <li><strong>Tools:</strong> Git, Gazebo, MATLAB, Linux, GCP</li>
     <li><strong>Hardware:</strong> Jetson Nano, Raspberry Pi, Arduino, Pixhawk</li>
   </ul>
-
-  <div class="about-divider"></div>
 
   <h2 class="section-title"><span>📬</span>Let’s Connect</h2>
   <ul class="about-list">
