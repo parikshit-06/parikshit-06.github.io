@@ -6,8 +6,8 @@ bio: Robotics & AI Engineer | UAV Systems | ML + Embedded + Control
 description: A portfolio of robotics, ML, and UAV projects.
 
 # better with square images
-external-image: false
-picture: assets/images/profile.jpg
+external-image: True
+picture: assets/images/Profile.jpg
 
 # your site color theme
 dark-theme: auto
