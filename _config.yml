@@ -41,8 +41,8 @@ authors:
   parikshit:
     name: Parikshit Sonwane
     bio: Robotics & AI Engineer | UAV Systems | ML + Embedded + Control
-    external-image: false
-    picture: assets/images/profile.jpg
+    external-image: True
+    picture: assets/images/Profile.jpg
     twitter: 
 
 # Layout width
