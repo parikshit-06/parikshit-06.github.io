@@ -6,7 +6,7 @@ bio: Robotics & AI Engineer | UAV Systems | ML + Embedded + Control
 description: A portfolio of robotics, ML, and UAV projects.
 
 # better with square images
-external-image: True
+external-image: false
 picture: assets/images/Profile.jpg
 
 # your site color theme
@@ -41,7 +41,7 @@ authors:
   parikshit:
     name: Parikshit Sonwane
     bio: Robotics & AI Engineer | UAV Systems | ML + Embedded + Control
-    external-image: True
+    external-image: false
     picture: assets/images/Profile.jpg
     twitter: 
 
