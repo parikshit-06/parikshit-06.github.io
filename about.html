@@ -1,6 +1,7 @@
 ---
-title: About
 layout: page
+title: About
+permalink: /about/
 ---
 
 <style>
@@ -39,7 +40,7 @@ ul.about-list li {
 }
 </style>
 
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<img src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" alt="Profile Image" style="width: 180px; border-radius: 12px; margin-bottom: 20px;" />
 
 <div class="about-section">
   I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.
