@@ -5,7 +5,7 @@ layout: page
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
+<p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems, building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
 
 <p>I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.</p>
 
@@ -72,4 +72,4 @@ layout: page
 - 💼 LinkedIn: [psonwane](https://linkedin.com/in/psonwane)  
 - 💻 GitHub: [parikshit-06](https://github.com/parikshit-06)
 
-<p>If you're working on robotics, edge AI, or just like building systems that move and think — feel free to reach out.</p>
+<p>If you're working on robotics, edge AI, or just like building systems that move and think, feel free to reach out.</p>
