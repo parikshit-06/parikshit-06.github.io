@@ -3,73 +3,86 @@ title: About
 layout: page
 ---
 
-![Profile Image](https://parikshit-06.github.io/assets/images/profile.jpg)
+<style>
+.about-section {
+  color: #dcdcdc;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+.about-section strong {
+  color: #ffffff;
+}
+.about-divider {
+  border-top: 1px solid #444;
+  margin: 2rem 0;
+}
+.section-title {
+  font-size: 1.3rem;
+  color: #ff66cc;
+  margin-bottom: 0.5rem;
+}
+.section-title span {
+  margin-right: 0.5rem;
+}
+ul.about-list {
+  list-style: none;
+  padding-left: 0;
+}
+ul.about-list li::before {
+  content: "•";
+  color: #9f79ff;
+  margin-right: 0.6rem;
+}
+ul.about-list li {
+  margin-bottom: 0.5rem;
+}
+</style>
 
-<p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems, building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.</p>
+<div class="about-section">
+  I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems — building intelligent machines that don’t just run in simulation, but operate reliably in the real world.
+</div>
 
----
+<div class="about-section">
+  I’ve designed and flown UAVs for search-and-rescue and disaster relief, trained ML models for drone detection, and built gesture-controlled navigation systems using vision pipelines. My projects span from mechanical design and embedded control to deep learning, reinforcement learning, and full-stack system deployment on edge platforms.
+</div>
 
-### 🧠 What I'm Interested In
+<div class="about-divider"></div>
 
-- Robotics (UAVs, UUVs, multi-modal systems)  
-- Real-time perception (CV, audio, sensor fusion)  
-- Path planning, control systems, and RL  
-- ML inference on edge hardware (Jetson, Pi)  
-- Sim-to-real transfer and autonomous navigation
-
----
-
-### 💼 Roles I've Taken
-
-- <strong>Head, Aero Club – CFI, IIT Madras</strong>  
-  I lead student UAV/Robo projects, mentor teams, and organize workshops and competitions.
-
-- <strong>Project Lead – Neptune (Amphibious UAV)</strong>  
-  I led the design and testing of a drone capable of both aerial and underwater operations using custom waterproof propulsion and CFD-optimized geometry.
-
-- <strong>Team Member – Inter-IIT Tech Meet</strong>  
-  I built a fault-tolerant PX4-based UAV with onboard motor failure detection and emergency recovery logic, and demonstrated full HIL simulation.
-
----
-
-### 🧪 Currently Building
-
-- **GestureNav:** A real-time drone navigation system controlled via hand gestures using ROS 2, MediaPipe, and PX4.  
-
----
-
-### 🛠 My Stack
-
-<ul class="skill-list">
-	<li><strong>Languages:</strong> Python, C/C++, SQL</li>
-	<li><strong>Frameworks:</strong> ROS/ROS2, PX4, OpenCV, Simulink, TensorFlow</li>
-	<li><strong>Libraries:</strong> Hugging Face, MediaPipe, MFCC, scikit-learn</li>
-	<li><strong>Tools:</strong> Git, Jupyter, Gazebo, MATLAB, Linux, GCP</li>
-	<li><strong>Hardware:</strong> Raspberry Pi, Jetson Nano, Arduino, Pixhawk</li>
-	<li><strong>CAD & Simulation:</strong> Fusion360, CFD, UAV design and testing</li>
+<h2 class="section-title"><span>🧠</span>What I’m Interested In</h2>
+<ul class="about-list">
+  <li>Robotics (UAVs, UUVs, multi-modal systems)</li>
+  <li>Real-time perception (CV, audio, sensor fusion)</li>
+  <li>Path planning, control systems, and RL</li>
 </ul>
 
----
+<div class="about-divider"></div>
 
-### 🧩 Projects I'm Proud Of
-
-<ul>
-	<li><a href="https://github.com/parikshit-06/airsight">AirSight – Multi-Modal Drone Detection</a></li>
-	<li><a href="https://github.com/parikshit-06/gesturenav">GestureNav – Vision-Based Drone Control</a></li>
-	<li><a href="https://github.com/parikshit-06/astar-gridmap-co">3D A* Path Planning with LiDAR</a></li>
-	<li><a href="https://github.com/parikshit-06/domain-adaptive-skeleton">Domain Adaptive Skeleton GPT-2</a></li>
-	<li><a href="https://github.com/parikshit-06/amphibious-uav">Neptune – Amphibious Drone</a></li>
-	<li><a href="https://github.com/parikshit-06/motor-failure-uav">Motor Failure Recovery – Inter-IIT Tech Meet</a></li>
+<h2 class="section-title"><span>🚀</span>Currently Working On</h2>
+<ul class="about-list">
+  <li><strong>GestureNav</strong>: Drone navigation via real-time hand gestures using ROS2, MediaPipe, and PX4.</li>
+  <li><strong>Domain Adaptive GPT-2</strong>: Lightweight NLP model using LoRA adapters across legal, sports, and medical domains.</li>
+  <li><strong>RL + LiDAR Obstacle Avoidance</strong>: Reinforcement learning with 3D voxelized LiDAR environments.</li>
 </ul>
 
----
+<div class="about-divider"></div>
 
-### 📫 Let’s Connect
+<h2 class="section-title"><span>🛠️</span>My Stack</h2>
+<ul class="about-list">
+  <li><strong>Languages:</strong> Python, C/C++, SQL</li>
+  <li><strong>Frameworks:</strong> ROS/ROS2, PX4, Simulink, TensorFlow, OpenCV</li>
+  <li><strong>Libraries:</strong> Hugging Face, MediaPipe, MFCC, scikit-learn</li>
+  <li><strong>Tools:</strong> Git, Gazebo, MATLAB, Linux, GCP</li>
+  <li><strong>Hardware:</strong> Jetson Nano, Raspberry Pi, Arduino, Pixhawk</li>
+</ul>
 
-- 📧 Email: [parik.sonwane06@gmail.com](parik.sonwane06@gmail.com)  
-- 💼 LinkedIn: [psonwane](https://linkedin.com/in/psonwane)  
-- 💻 GitHub: [parikshit-06](https://github.com/parikshit-06)
+<div class="about-divider"></div>
 
-<p>If you're working on robotics, edge AI, or just like building systems that move and think, feel free to reach out.</p>
+<h2 class="section-title"><span>📬</span>Let’s Connect</h2>
+<ul class="about-list">
+  <li>Email: <a href="mailto:parik.sonwane06@gmail.com">parik.sonwane06@gmail.com</a></li>
+  <li>GitHub: <a href="https://github.com/parikshit-06" target="_blank">parikshit-06</a></li>
+  <li>LinkedIn: <a href="https://linkedin.com/in/psonwane" target="_blank">psonwane</a></li>
+</ul>
