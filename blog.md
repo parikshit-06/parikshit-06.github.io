@@ -22,32 +22,32 @@ title: Blog
   }
 
   .blog-card h2 {
-  margin: 0 0 0.6rem;
-  font-size: 3rem;
-  font-weight: 700;
-}
+    margin: 0 0 0.6rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
 
- .blog-date {
- font-size: 1.5rem;
-  margin-bottom: 1rem;
-  display: block;
-}
+  .blog-date {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    display: block;
+  }
 
- .blog-card p {
-  font-size: 2rem;
-  line-height: 1.7;
-}
+  .blog-card p {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
 
- .read-more {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  font-size: 2rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: var(--transition);
-}
+  .read-more {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: var(--transition);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -64,19 +64,25 @@ title: Blog
 
   .blog-card h2 {
     color: #111111;
+    font-size: 2.4rem;
   }
 
   .blog-card .blog-date {
     color: #666666;
+    font-size: 1.6rem;
   }
 
   .blog-card p {
     color: #333333;
+    font-size: 2rem;
+    line-height: 1.8;
   }
 
   .read-more {
     background-color: #dddddd;
     color: #111111;
+    font-size: 1.8rem;
+    padding: 0.8rem 1.5rem;
   }
 
   .read-more:hover {
@@ -88,8 +94,8 @@ title: Blog
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  margin-top: 2.5rem;
+  gap: 2.5rem;
+  margin-top: 3rem;
   padding: 0 2rem;
   font-family: 'Inter', sans-serif;
 }
@@ -97,40 +103,12 @@ title: Blog
 .blog-card {
   border: 1px solid;
   border-radius: 14px;
-  padding: 2rem;
+  padding: 2.4rem;
   transition: var(--transition);
 }
 
 .blog-card:hover {
-  transform: translateY(-5px);
-}
-
-.blog-card h2 {
-  margin: 0 0 0.6rem;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-
-.blog-date {
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
-  display: block;
-}
-
-.blog-card p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.read-more {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: var(--transition);
+  transform: translateY(-6px);
 }
 </style>
 
