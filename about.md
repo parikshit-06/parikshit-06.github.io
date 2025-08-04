@@ -46,4 +46,4 @@ I'm currently open to:
 
 ---
 
-Whether it’s building field-deployable drones or optimizing neural networks for edge inference, I enjoy working where **hardware meets intelligence**—and where theory is tested under constraint.
+Whether it’s building field-deployable drones or optimizing neural networks for edge inference, I enjoy working where **hardware meets intelligence** and where theory is tested under constraint.
