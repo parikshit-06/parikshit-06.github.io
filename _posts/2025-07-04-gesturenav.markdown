@@ -1,20 +1,18 @@
 ---
-
 title: "GestureNav: Controlling Drones with Hand Gestures Using MediaPipe + ROS2"
 layout: post
 date: 2025-07-04 10:00
 headerImage: false
 tag:
-
-* robotics
-* vision
-* ROS2
-  star: true
-  category: blog
-  author: parikshit
-  description: Controlling drones in real-time using hand gestures with MediaPipe, ROS2, and PX4.
-
+  - robotics
+  - vision
+  - ROS2
+star: true
+category: blog
+author: parikshit
+description: Controlling drones in real-time using hand gestures with MediaPipe, ROS2, and PX4.
 ---
+
 
 ## Why Gesture Control?
 
