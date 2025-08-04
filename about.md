@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![Profile Image](https://parikshit-06.github.io/assets/images/profile.jpg)
 
 <p>I’m <strong>Parikshit Sonwane</strong>, a final-year Aerospace Engineering student at IIT Madras. I work at the intersection of robotics, machine learning, and embedded systems, building intelligent machines that don’t just run in simulation, but operate reliably in the real world.</p>
 
