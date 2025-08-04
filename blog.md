@@ -23,18 +23,18 @@ title: Blog
 
   .blog-card h2 {
   margin: 0 0 0.6rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
  .blog-date {
- font-size: 1rem;
+ font-size: 1.5rem;
   margin-bottom: 1rem;
   display: block;
 }
 
  .blog-card p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   line-height: 1.7;
 }
 
@@ -43,7 +43,7 @@ title: Blog
   margin-top: 1.5rem;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-weight: 500;
   text-decoration: none;
   transition: var(--transition);
