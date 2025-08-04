@@ -1,15 +1,19 @@
-- name: 3D A* Path Planning in Voxelized Environments
-  url: https://github.com/parikshit-06/astar-gridmap-co
-  description: Implemented a 3D A* path planning algorithm using voxelized LiDAR data. Simulated real-time drone navigation in a custom 3D environment with collision avoidance.
-
-- name: Domain Adaptive Skeleton GPT-2
-  url: https://github.com/parikshit-06/domain-adaptive-skeleton
-  description: Fine-tuned GPT-2 using LoRA adapters for domain-specific language tasks in legal, sports, and medical corpora. Designed a modular, low-resource training pipeline.
+- name: AirSight – Multi-Modal Drone Detection
+  url: https://github.com/parikshit-06/airsight
+  description: Real-time drone detection system using image and audio fusion (CNN + MFCC). Supports embedded deployment on Jetson Nano and Raspberry Pi.
+  tags: [TensorFlow, Embedded, Audio, CNN, OpenCV]
 
 - name: GestureNav – Gesture-Based Drone Control
   url: https://github.com/parikshit-06/gesturenav
-  description: Real-time hand gesture control system for drones using MediaPipe and CNNs. Integrated gesture tracking with ROS 2 and PX4 for autonomous navigation.
+  description: Real-time drone navigation using hand gestures. Built using ROS2, MediaPipe, and PX4. Enables intuitive vision-based control.
+  tags: [ROS2, MediaPipe, PX4, OpenCV, Embedded]
 
-- name: AirSight – Multi-Modal Drone Detection
-  url: https://github.com/parikshit-06/airsight
-  description: Developed a robust drone detection system using fused image and audio data (CNN + MFCC). Trained real-time classifiers deployable on Jetson Nano and Raspberry Pi.
+- name: 3D A* Path Planning in Voxelized Environments
+  url: https://github.com/parikshit-06/astar-gridmap-co
+  description: 3D A* planner using voxelized LiDAR point clouds. Simulates obstacle-aware drone navigation in real-time.
+  tags: [Path Planning, LiDAR, A*, 3D, Simulation]
+
+- name: Domain Adaptive Skeleton GPT-2
+  url: https://github.com/parikshit-06/domain-adaptive-skeleton
+  description: Modular GPT-2 fine-tuning pipeline using LoRA adapters across domains like legal, sports, and medicine. Optimized for low-resource training.
+  tags: [LoRA, Transformers, Hugging Face, NLP, Fine-Tuning]
