@@ -112,6 +112,10 @@ title: Blog
 }
 </style>
 
+<h1 style="text-align: center; font-size: 2.5rem; font-weight: 700; margin-top: 3rem; font-family: 'Inter', sans-serif;">
+  Blogs
+</h1>
+
 <section class="blog-grid">
   {% for post in site.posts %}
     {% if post.category == 'blog' and post.hidden != true %}
