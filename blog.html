@@ -2,16 +2,24 @@
 layout: page
 title: Blog
 ---
-<section class="list">
-	{% if site.posts.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	{% else %}
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
-</section>
+
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-4xl font-bold mb-8 text-center">Latest Posts</h1>
+
+  {% if site.posts.size == 0 %}
+    <p class="text-center text-gray-500 text-lg">Nothing published yet!</p>
+  {% else %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for post in site.posts %}
+        {% if post.category == 'blog' and post.hidden != true %}
+          <a href="{{ post.url }}" class="block bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 p-6">
+            <h2 class="text-xl font-semibold text-gray-900 mb-2">{{ post.title }}</h2>
+            <p class="text-sm text-gray-600 mb-4">{{ post.date | date: "%B %d, %Y" }}</p>
+            <p class="text-gray-700 text-base">{{ post.description | truncate: 100 }}</p>
+            <span class="inline-block mt-4 text-blue-600 font-medium hover:underline">Read more →</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
