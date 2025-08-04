@@ -11,7 +11,7 @@ Hi, I’m **Parikshit Sonwane**, a final-year undergraduate at IIT Madras majori
 
 ### 🔧 What I Do
 
-- **Drone & UAV Systems:** From design to flight—I've built fixed-wing, amphibious, and multi-modal UAVs for applications like disaster relief and autonomous navigation.
+- **Drone & UAV Systems:** From design to flight, I've built fixed-wing, amphibious, and multi-modal UAVs for applications like disaster relief and autonomous navigation.
 - **Machine Learning & Computer Vision:** Trained models for gesture recognition, drone detection, and domain-adaptive NLP using frameworks like TensorFlow, Keras, Hugging Face.
 - **Control & Planning:** Implemented 3D A* path planning on voxelized LiDAR data, PID-based flight control in Simulink, and fault-tolerant motor failure recovery on PX4.
 - **Embedded & Simulation:** Deployed systems on Raspberry Pi, Jetson Nano; built full stack prototypes in ROS/ROS2, Gazebo, and MATLAB.
