@@ -29,7 +29,7 @@ layout: page
 - <strong>Project Lead – Neptune (Amphibious UAV)</strong>  
   I led the design and testing of a drone capable of both aerial and underwater operations using custom waterproof propulsion and CFD-optimized geometry.
 
-- <strong>Team Lead – Inter-IIT Tech Meet</strong>  
+- <strong>Team Member – Inter-IIT Tech Meet</strong>  
   I built a fault-tolerant PX4-based UAV with onboard motor failure detection and emergency recovery logic, and demonstrated full HIL simulation.
 
 ---
@@ -37,8 +37,6 @@ layout: page
 ### 🧪 Currently Building
 
 - **GestureNav:** A real-time drone navigation system controlled via hand gestures using ROS 2, MediaPipe, and PX4.  
-- **Domain Adaptive Skeleton GPT-2:** A modular NLP pipeline using LoRA adapters for task-specific fine-tuning across multiple domains.  
-- **RL + LiDAR Obstacle Avoidance:** Reinforcement learning for UAV navigation using voxelized 3D LiDAR environments.
 
 ---
 
